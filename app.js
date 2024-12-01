@@ -61,16 +61,17 @@ login('itsvictorlopez@gmail.com', 'victor123')
  * 
  */
 
-function register(name, email, password, subscriptionStatus, discordId, lessonsCompleted) {
-    let user = {
-        username: name,
-        email: email,
-        password: password,
-        subscriptionStatus: subscriptionStatus,
-        discordId: discordId,
-        lessonsCompleted: lessonsCompleted
-    }
-   console.log(user) 
+
+function register(user) {
+  user.push(user);
 }
 
-register("Victor", "victor@test.com", "victor123", "a winner", "discord123", [1, 2]);
+register({username: "Victor", email:"victor@test.com", password:"victor123", subscriptionStatus:"a winner", discordId:"discord123", lessonsCompleted:[1, 2]});
+
+console.log(users);
+
+// go over objects again
+
+// DOM // 
+
+// The DOM allows you to access and change the styling and content of elements on your website.
