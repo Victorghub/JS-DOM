@@ -62,16 +62,21 @@ login('itsvictorlopez@gmail.com', 'victor123')
  */
 
 
-function register(user) {
-  user.push(user);
-}
+//function register(user) {
+//  user.push(user);
+//}
 
-register({username: "Victor", email:"victor@test.com", password:"victor123", subscriptionStatus:"a winner", discordId:"discord123", lessonsCompleted:[1, 2]});
+//register({username: "Victor", email:"victor@test.com", password:"victor123", subscriptionStatus:"a winner", discordId:"discord123", lessonsCompleted:[1, 2]});
 
-console.log(users);
+//console.log(users);
 
 // go over objects again
 
 // DOM // 
 
 // The DOM allows you to access and change the styling and content of elements on your website.
+
+function changeTitleToRed() {
+    document.querySelector('#title').style.color = 'red'
+    console.log('clicked')
+}
